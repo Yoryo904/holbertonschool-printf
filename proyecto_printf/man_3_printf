@@ -1,0 +1,24 @@
+.TH _PRINTF 3 "Fecha" "Version" "Manual del Programador"
+.SH NOMBRE
+_printf \- imprime datos formateados
+.SH SINOPSIS
+.B #include <header.h>
+.BR _printf " (const char *format, ...);
+.SH DESCRIPCILa funcinnn \fB_printf\fR formatea e imprime datos en la salida estndar segun  un formato especificado.
+.SH ARGUMENTOS
+.TP
+.B format
+Formato de la cadena que especifica como se imprimiran los argumentos.
+.TP
+.B ...
+Argumentos a ser impresos, que dependen del especificador de formato.
+.SH VALOR DE RETORNO
+Devuelve el numero de caracteres impresos, o un numero negativo si ocurre un error.
+.SH ERRORES
+\B (especificar posibles errores que puede manejar)
+.SH EJEMPLOS
+.B #include <stdio.h>
+.B #include <header.h>
+.BR _printf ("Hola, %s!", "_printf");
+.SH VER VERSION
+1.0
